@@ -41,7 +41,7 @@ async def limit_concurrency_middleware(request: Request, call_next):
 # Configure CORS so your React frontend (port 5173) can talk to this server
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=["https://resonant-biscotti-de8ec7.netlify.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
