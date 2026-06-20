@@ -1,0 +1,14 @@
+# 1. Hide environment variable secrets (Crucial!)
+.env
+.env.local
+
+# 2. Hide Python system cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 3. Hide local virtual environments (if you created one)
+venv/
+.venv/
+env/
